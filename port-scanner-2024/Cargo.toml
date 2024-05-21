@@ -1,0 +1,9 @@
+[package]
+name = "ip_scanner"
+version = "0.2.0"
+authors = ["vlbezak"]
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+bpaf = {version = "0.7", features = ["derive", "bright-color"]}
